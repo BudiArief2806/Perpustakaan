@@ -9,11 +9,9 @@ Project ini adalah aplikasi NestJS sederhana untuk sistem perpustakaan dengan:
 - middleware logging request
 
 ## Menjalankan project
-Menggunnakan Applikasi Railway.
-- `link Railway with Swagger : https://perpustakaan-production-f384.up.railway.app/api#/Library/LibraryController_findAll`
-Database library buku. 
-*** `Katalog Perpustakaan *** : https://perpustakaan-production-f384.up.railway.app/books`
-*** `Cek Judul buku by Id *** : https://perpustakaan-production-f384.up.railway.app/books/1`
+- `link Railway with Swagger : https://perpustakaan-production-f384.up.railway.app/api#/Library/LibraryController_findAll` Menggunnakan Applikasi Railway.
+- `Katalog Perpustakaan *** : https://perpustakaan-production-f384.up.railway.app/books` Database library buku. 
+- `Cek Judul buku by Id *** : https://perpustakaan-production-f384.up.railway.app/books/1`
 
 ## Struktur fitur
 
