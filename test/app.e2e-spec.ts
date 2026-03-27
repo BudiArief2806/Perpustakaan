@@ -37,9 +37,18 @@ describe('AppController (e2e)', () => {
     return request(app.getHttpServer()).get('/books').expect(200);
   });
 
-  it('/books?category=Novel (GET)', async () => {
+  it('/books returns 10 seeded books (GET)', async () => {
     const response = await request(app.getHttpServer())
-      .get('/books?category=Novel')
+      .get('/books')
+      .expect(200);
+    const body = response.body as Book[];
+
+    expect(body).toHaveLength(10);
+  });
+
+  it('/books?title=Laskar (GET)', async () => {
+    const response = await request(app.getHttpServer())
+      .get('/books?title=Laskar')
       .expect(200);
     const body = response.body as Book[];
 
