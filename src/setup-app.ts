@@ -20,7 +20,7 @@ export function setupApp(app: INestApplication): void {
   // Menyusun metadata dokumentasi Swagger untuk endpoint API.
   const swaggerConfig = new DocumentBuilder()
     .setTitle('Library API')
-    .setDescription('API sederhana perpustakaan dengan mock database array')
+    .setDescription('Perpustakaan Budi ')
     .setVersion('1.0.0')
     .build();
 
