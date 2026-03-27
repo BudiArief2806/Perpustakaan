@@ -10,10 +10,10 @@ Project ini adalah aplikasi NestJS sederhana untuk sistem perpustakaan dengan:
 
 ## Menjalankan project
 Menggunnakan Applikasi Railway.
-*** link Railway with Swagger*** : https://perpustakaan-production-f384.up.railway.app/api#/Library/LibraryController_findAll
+- `link Railway with Swagger : https://perpustakaan-production-f384.up.railway.app/api#/Library/LibraryController_findAll`
 Database library buku. 
-*** Katalog Perpustakaan *** : https://perpustakaan-production-f384.up.railway.app/books
-*** Cek Judul buku by Id *** : https://perpustakaan-production-f384.up.railway.app/books/1
+*** `Katalog Perpustakaan *** : https://perpustakaan-production-f384.up.railway.app/books`
+*** `Cek Judul buku by Id *** : https://perpustakaan-production-f384.up.railway.app/books/1`
 
 ## Struktur fitur
 
